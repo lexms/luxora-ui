@@ -1,1 +1,1 @@
-# lucent
+# luxora-ui
