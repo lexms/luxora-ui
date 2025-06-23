@@ -4,16 +4,15 @@
 /node_modules
 /.pnp
 .pnp.js
+/pnpm-lock.yaml
 
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
-
-# production
+# build outputs
+/dist
 /build
+/storybook-static
 
 # misc
 .DS_Store
@@ -23,14 +22,35 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # local env files
 .env*.local
 .env
 
-# vercel
-.vercel
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
 
-# typescript
+# OS generated files
+Thumbs.db
+
+# TypeScript
 *.tsbuildinfo
-next-env.d.ts
+
+# Temporary files
+*.tmp
+*.temp
+
+# Biome cache
+.biome/
+
+# Vite
+.vite
+
+# Release files
+CHANGELOG.md

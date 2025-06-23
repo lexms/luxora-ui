@@ -1,0 +1,37 @@
+# Build outputs
+dist/
+storybook-static/
+
+# Dependencies
+node_modules/
+
+# Config files
+*.config.js
+*.config.ts
+vite.config.ts
+vitest.config.ts
+tailwind.config.js
+postcss.config.js
+
+# Generated CSS
+dist/style.css
+
+# Lock files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Storybook config
+.storybook/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Test coverage
+coverage/
+
+# Auto-generated files
+**/*.d.ts 
